@@ -1,2 +1,3 @@
-# AI-Chatbot
-- I have created an chatbot using AI techniques.
+# Mirage AI Customer Service Chatbot:
+- I have created an chatbot using Tensorflow 
+
