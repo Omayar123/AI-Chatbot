@@ -1,0 +1,54 @@
+{"intents": [
+    {"tag":"introduction",
+    "patterns":["hi", "hello", "bonjour", "whats up", "whatsup", "greetings", "hello mirage", "hi mirage", "how's it going?","how are you?"],
+    "responses":["hello, this is mirage. how may i help you?", "good day to you customer", "how can i be of service?", "this is mirage,What can i do for you?"],
+    "context_completed":""
+     
+     }, 
+     
+     {"tag":"refund",
+      "patterns":["who can i contact to issue a refund", "i would like to issue a refund", " give me refund details"],
+      "responses": ["sure thing! if you click on the link provided, you will be able to submit a refund token! You have 30 days from date of purchase in order to be eligible to submit a refund"]
+    
+      
+     },
+     
+     {"tag":"help",
+      "patterns": ["i would like to recieve some help", " can you help me", "how will i be able to recieve help?"],
+      "responses": ["if you would like to have further assistance, please contact at help@mirageservices.com or 0208343342. Thank you"]
+      
+     },
+     
+     {"tag":"name",
+      "patterns":["what is you're name", "what should i call you", "tell me your name", "let me know your name"],
+      "responses": ["my name is mirage! i am a chatbot that provides assistance towards our customer!"]
+      
+     },
+     
+     {"tag":"delivery",
+      "patterns":["is standard delivery free delivery?", "how much is express delivery?", "delivery", "when can i expect to recieve my package?"],
+      "responses":[" for mirage's delivery service, standard delivery will take upto 5 working days and cost no charge, express delivery will be delivered within the 48 hour period and will cost an additional £6.99"]
+      
+     },
+     
+     {"tag":"collection",
+      "patterns":["i would like to collect my product", "where can i collect my product", "collection"],
+      "responses":["IF you would like to collect your product visit www.mirage.com/localstores in order to find your local retailer and you will be able to collect your product"]
+      
+     },
+     
+     {"tag":"review",
+      "patterns":["i would like to leave a review on a product i have purchased", "i want to leave a review", "i want to read the review", "i want to read this product reviews"],
+      "responses":["visit www.mirage.com/reviews in order to read and leave reviews on our products! thank you!"]
+      
+                   
+     },
+     
+     {"tag":"goodbye",
+      "patterns":["thank you", "thank you for your service", "t appreciate the help", "bye", "goodbye"],
+      "responses":["Thank you for using me! i hope my service has provided you useful information!"]
+      
+                   
+     }
+ ]}
+    
